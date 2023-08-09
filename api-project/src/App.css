@@ -1,0 +1,36 @@
+.searchDiv {
+  border: 1px solid lightgray;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.searchDiv form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.searchDiv form input {
+  width: 100%;
+  padding: 5px;
+  font-size: 20px;
+}
+
+.App {
+  margin: 10px;
+}
+
+.imageList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.item {
+  display: flex;
+}
